@@ -1,9 +1,12 @@
 {
     "name": "@PaskalN/keen-builder",
-    "version": "1.0.0",
-    "main": "./dist/index.cjs",
+    "version": "1.0.14",
+    "main": "dist/index.cjs",
     "module": "./dist/index.mjs",
     "type": "module",
+    "bin": {
+        "keen-builder": "dist/cli.cjs"
+    },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"
     },
