@@ -7,7 +7,10 @@
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"
     },
-    "repository": "https://github.com/PaskalN/keen-project-watch-builder-pkg.git",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PaskalN/keen-project-watch-builder-pkg.git"
+    },
     "files": [
         "dist/**"
     ],
