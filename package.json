@@ -1,6 +1,6 @@
 {
-    "name": "@PaskalN/keen-builder",
-    "version": "1.0.14",
+    "name": "@paskaln/keen-builder",
+    "version": "1.0.16",
     "main": "dist/index.cjs",
     "module": "./dist/index.mjs",
     "type": "module",
