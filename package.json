@@ -1,5 +1,5 @@
 {
-    "name": "@paskaln/keen-builder",
+    "name": "keen-builder",
     "version": "1.0.1",
     "main": "dist/index.cjs",
     "module": "./dist/index.mjs",
@@ -8,7 +8,8 @@
         "keen-builder": "dist/cli.cjs"
     },
     "publishConfig": {
-        "registry": "https://registry.npmjs.org"
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
     },
     "repository": {
         "type": "git",
@@ -30,7 +31,7 @@
         "build": "npm run build:cjs && npm run build:esm"
     },
     "keywords": [],
-    "author": "",
+    "author": "Paskal Novakov",
     "license": "ISC",
     "description": "",
     "dependencies": {
